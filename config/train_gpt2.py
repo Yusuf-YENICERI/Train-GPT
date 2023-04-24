@@ -31,3 +31,7 @@ always_save_checkpoint = False
 out_dir = 'out-shakespare'
 beta2 = 0.99 # number of tokens is small
 dataset = 'shakespeare'
+
+n_layer=6
+n_head=6
+n_embd=384
