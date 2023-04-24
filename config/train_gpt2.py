@@ -32,6 +32,6 @@ out_dir = 'out-shakespare'
 beta2 = 0.99 # number of tokens is small
 dataset = 'shakespeare'
 
-n_layer=6
-n_head=6
-n_embd=384
+n_layer=9
+n_head=9
+n_embd=576
