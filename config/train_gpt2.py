@@ -13,13 +13,20 @@ block_size = 1024
 gradient_accumulation_steps = 5
 
 # this makes total number of tokens be 300B
-max_iters = 600000
-lr_decay_iters = 600000
+max_iters = 6000
+lr_decay_iters = 6000
 
 # eval stuff
-eval_interval = 1000
+eval_interval = 250
 eval_iters = 200
 log_interval = 10
 
+
+
 # weight decay
 weight_decay = 1e-1
+
+#added later
+always_save_checkpoint = False
+out_dir = 'out-shakespare'
+beta2 = 0.99 # number of tokens is small
